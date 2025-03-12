@@ -11,9 +11,10 @@ const User=require("./models/user")
 
 
 app.use(cors({
-    origin:"dev-tinder-frontend-xi.vercel.app",
-    credentials:true
-}))
+    origin: "https://dev-tinder-frontend-xi.vercel.app",
+    credentials: true
+}));
+
 app.use(express.json());
 app.use(cookieparser());
 
